@@ -1,0 +1,20 @@
+
+.indent-produtos{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.miniaturas{
+    margin: 0 auto;
+}
+
+.btn.btn-secondary{
+    width: 100%;;
+} 
+
+.col-md-3 {
+    margin-top: 5vh !important;
+}

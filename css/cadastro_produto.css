@@ -1,0 +1,28 @@
+input{
+    width: 70%;
+}
+textarea{
+    width: 70%;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+H1{
+    text-align: center
+}
+.btn.btn-primary.btn-lg, .btn.btn-secondary.btn-lg{
+    width: 100%;
+}
+
+.indent-cadastro {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 3%;
+}
+.bold{
+    font-weight: bold;
+}

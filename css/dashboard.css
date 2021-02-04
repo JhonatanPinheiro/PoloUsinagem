@@ -1,0 +1,55 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 1rem ;
+    background-color: rgba(0, 0, 0, 0.315);
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.75);
+}
+.loger {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.danger{
+    color: rgb(250, 129, 129) !important ;
+
+}
+.danger:hover{
+    background-color: rgba(255, 0, 0, 0.267);
+}
+.user-data{
+    color: lightyellow;
+}
+.logout-bt{
+    margin: 0;
+}
+
+.nav-bar.menu{
+    display: flex;
+    background: #383838;
+    font-weight: 700;
+    width: 100%;
+    height: 65px;
+    box-shadow: 15px 5px 14px -3px rgba(0,0,0,0.75);
+    align-items: center;
+    margin: -6px 0px 25px 0px;
+}
+.nav.nav-bar{
+  margin-left: 25px;
+}
+li a{
+    font-weight: 900;
+    color: white !important;
+}
+li:hover{
+    background: rgba(0, 0, 0, 0.692);
+}
+
+.icon.icon-sm.icone {
+    width: 50px;
+    display: flex;
+    margin-right: 7vh;
+}

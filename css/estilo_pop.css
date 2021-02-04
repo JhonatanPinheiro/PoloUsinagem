@@ -1,0 +1,28 @@
+.ajuda_pop {
+  position: absolute;
+  top: 192px;
+  bottom: 0;
+  left: 15px;
+  margin: auto;
+  width: 900px;
+  height: 80px;
+  padding: 15px;
+  border: ridge 2px #ffc107;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  background: #FFF;
+  color: #000;
+  display: none;
+}
+
+.fa-robot{
+  color: #ffc107;
+  font-size: 20px;
+
+}
+
+.fa-robot:hover{
+  color: red;
+  font-size: 20px;
+  transition-duration: 25s;
+}

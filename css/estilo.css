@@ -1,0 +1,234 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*Estilizando a Barra Pricipal*/
+.navbar-expand-sm{
+	background: #383838;
+}
+/*Estilizando o Logo Principal (Business Dad)  no Cabeçalho Header*/
+.navbar-light .navbar-brand span{
+	padding: 3px;
+	border-top: 8px groove #FFF9F9;
+	border-bottom: 8px groove#FFF9F9;
+	border-right: 3px inset #FFF9F9;
+	border-left: 3px outset #FFF9F9;
+
+	background: url(''),
+ 	linear-gradient(180deg,#FFF9F9,#c0c0c0);
+ 	border-radius: 100px;
+
+
+ 	font-weight: 700;
+	font-size: 20px;
+
+}
+.carousel-caption.d-none.d-md-block{
+	background-color: rgba(78, 78, 78, 0.895);
+	
+}
+.indent{
+	margin: 0 auto;
+}
+.indent-between {
+    display: flex;
+    justify-content: space-around;
+}
+.cont-bv {
+    display: flex;
+    justify-content: center;
+}
+.bg-primary {
+	padding: 20px;
+	background: white !important;
+}
+.bd-example{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+}
+.indent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 !important;
+}
+
+/*Estilizando o Links do menu no Cabeçalho Header*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.8);
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+			font-weight: 500;
+		  color: rgba(255,255,255,0.8);
+}
+/*Estilizando o Links do menu dentro Produtos no Cabeçalho*/
+.dropdown-item:hover{
+	background: url(''),
+	linear-gradient(180deg,rgba(255,249,249),rgba(246,234,107,0.3));
+
+}
+
+
+
+
+/* Colocando marca daguá nas paginas (Localização onde o usuario vai estar) */
+#fresamento_pastilha_intercabiavel #fresamento_pastilha_intercabiavel{
+	font-weight: 500;
+	color: rgba(255,255,255,0.8);
+}
+
+#torneamento_pastilha_intercabiavel #torneamento_pastilha_intercabiavel{
+	font-weight: 500;
+	color: rgba(255,255,255,0.8);
+}
+
+#quem_somos #quem_somos{
+	font-weight: 500;
+	color: rgba(255,255,255,0.8);
+}
+
+#contato #contato{
+	font-weight: 500;
+	color: rgba(255,255,255,0.8);
+}
+
+#login #login{
+	font-weight: 500;
+	color: rgba(255,255,255,0.8);
+}
+
+#process_send_contact #process_send_contact{
+font-weight: 500;
+color: rgba(255,255,255,0.8);
+}
+
+
+/* Estilizando As  imagens do Carousel */
+#imagem_carousel_fresadora1{
+	border-top: 2px groove white;
+	border-bottom: 4px groove white;
+	height: 615px;
+}
+
+#imagem_carousel_fresadora2{
+	border-top: 2px groove white;
+	border-bottom: 4px;
+	height: 615px;
+}
+
+/*Pagina quando o Usuario está logado icones na barra barra_principal*/
+.fa, .far, .fas:hover{
+	color: #FFFF
+}
+
+/*________________ Rodapé_________________*/
+
+
+footer {
+	padding: 50px 0px 20px 0px;
+	position: relative;
+	background: #333333;
+}
+
+footer h4 {
+	color: #919596;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+footer ul li a {
+  font-size: 34px;
+  color: #FFF;
+}
+
+.informacoesObrigatorias{
+	color: red;
+}
+ /*Estilizando os Icones (Facebook,Instragram,Twitter) do rodapé*/
+ .fa-facebook-square{
+	 color: rgba(255,255,255,0.8);
+
+ }
+ .fa-facebook-square:hover{
+	 color: rgba(36,125,165,1);
+	 background: rgba(255,255,255,1);
+	 transition: 0.7s;
+	 border: 2.5px groove white;
+	 border-radius: 10px;
+	 font-size: 35px;
+ }
+
+ .fa-instagram{
+	 color: rgba(255,255,255,0.8);
+ }
+ .fa-instagram:hover{
+	 color: rgba(255,255,255, 0.9);
+	 background: linear-gradient(50deg,#ff4169,#7c26f8);
+	 transition: 0.7s;
+	 border: 2.5px groove white;
+	 border-radius: 10px;
+	 font-size: 35px;
+ }
+
+ .fa-twitter-square {
+     color: rgba(255,255,255,0.8);
+}
+.fa-twitter-square:hover {
+	color: rgba(0,172,238,1);
+ 	background: rgba(255,255,255,1);
+ 	transition: 0.7s;
+ 	border: 2.5px groove white;
+ 	border-radius: 10px;
+ 	font-size: 35px;
+}
+
+
+/* =========================================================================================== */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
+
+/* ================================================================================= */
